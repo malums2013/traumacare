@@ -6,6 +6,17 @@ $admn=$_SESSION['adm'];
 
 
 ?>
+<?php
+
+if($_SESSION['adm'])
+{
+    
+}
+ else
+     {
+    header("location:index.php");    
+}
+?>
 <!--
 Author: W3layouts
 Author URL: http://w3layouts.com
@@ -58,7 +69,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		    <div class="clear"> </div>
 		   
 		   <div class="wrap">
-                       <a href="add_citz.php">  <span style="float: right"class="btn btn-warning">Add Citizen</span></a>&nbsp;&nbsp;       <a href="amb_enq.php">  <span style="float: right"class="btn btn-success">Ambulance Enquirey</span></a>
+                       <a href="re1.php">  <span style="float: right"class="btn btn-success">Hospital Report</span></a>&nbsp;&nbsp;  <a href="re.php">  <span style="float: right"class="btn btn-success">Accident Report</span></a>&nbsp;&nbsp;     <a href="t_con.php">  <span style="float: right"class="btn btn-primary">Add Traffic Control</span></a>&nbsp;&nbsp;<a href="add_citz.php">  <span style="float: right"class="btn btn-warning">Add Citizen</span></a>&nbsp;&nbsp;       <a href="amb_enq.php">  <span style="float: right"class="btn btn-success">Ambulance Enquirey</span></a>
 		   	<div class="about">
 		   		<h4>Search Hospital</h4>
 		   <div class="content-box">
